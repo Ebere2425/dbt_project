@@ -19,3 +19,14 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: new_table 
+      description: "A model for Analytics Engineering Assessement" 
+      columns:
+          - country: "Name of country"
+            country_code: "short code of country"
+            as_of_year: "Year the data was recorded"
+            population: "population of people in the country at that year"
+            tests:
+                - unique
+                - not_null            
+            
